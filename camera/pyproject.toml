@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "home-camera-surveillance"
+version = "0.1.0"
+description = ""
+authors = ["Anders Nordin <anders.nordin@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+watchdog = "^3.0.0"
+google-cloud-storage = "^2.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
